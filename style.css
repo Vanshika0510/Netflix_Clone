@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    padding: 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    
+}
+.navbar_item1{
+    height: 100%;
+    width: 125px;
+}
+.navbar_item2{
+    top: 0;
+    display: flex;
+    gap: 20px;
+}
+.Netflix_logo{
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    font-weight: bolder;
+}
+.dropdown{
+    background: transparent;
+    border: 0.5px solid whitesmoke;
+    border-radius: 0.25rem;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 0.25px;
+    padding-bottom: 0.25px;
+}
+.dropdown::after{
+    color: black;
+}
+.Icon{
+    width: 1rem;
+    height: 1rem;
+}
+.laguage_dropdown{
+    background: transparent;
+    border: none;
+    width: 4.5rem;
+    height: 2rem;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.o1,.o2{
+    color: black;
+}
+.signin-button{
+    background: transparent;
+    background-color: rgb(229, 9, 20);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    width: 4.5rem;
+    height: 2rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.main_bg_img{
+    height: 100%;
+    width: 100%;
+}
+.Bg_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main_page_opacity{
+    position:absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.main_text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 9px;
+    text-align: center;
+    line-height: 4rem;
+}
+.text1{
+    font-size: 2.75rem;
+    font-weight:900;
+}
+.text2,.text3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.emailinput{
+    background-color: rgba(110, 155, 233, 0.084);
+    border: 0.5px solid whitesmoke;
+    border-radius: 0.5rem;
+    color: rgb(209, 203, 203);
+    width: 450px;
+    height: 60px;
+    font-size: 1.5rem;
+}
+.getstarted{
+    width: 180px;
+    height: 60px;
+    border: none;
+    background: transparent;
+    background-color: rgb(229, 9, 20);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 15px;
+}
+.Card1,
+.Card2,
+.Card3,
+.Card4,
+.Card5{
+    border-top: 8px solid rgb(52, 51, 51);
+    padding: 50px;
+}
+.Card1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px;
+}
+.Card2{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px;
+}
+.Card3{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px;
+}
+.Card4{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px;
+}
+.desc1,.desc2,.desc3,.desc4{
+    color: white;
+}
+.desc11,.desc21,.desc31,.desc41{
+    font-size: 2.75rem;
+    font-weight:900;
+}
+.desc12,.desc22,.desc32,.desc42{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.Card1 video{
+    position: relative;
+    width: 100%;
+    height: 57%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+    object-fit: contain;
+}
+.Card1 img{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.Card2_stranger_motion{
+    min-width: 600px;
+    padding: 0.35rem,0.75rem;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    translate: -120% -35%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 33%;
+    height: 18%;
+    min-width: 15rem;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+.strangerCard2{
+    margin: 0.65rem;
+    height: 4rem;
+    width: 3rem;
+}
+.t1{
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.t2{
+    color: rgb(28, 28, 253);
+    font-weight: 400;
+}
+.alternate-of-card2{
+    text-align: left;
+    margin-right: 10rem;
+}
+.gif_card2{
+    width: 3rem;
+    height: 3rem;
+    align-items: right;
+    outline: 2px solid rgb(0, 0, 0);
+    outline-offset: -2px;
+    display: block;
+    background: url(Images/card2Img2-download.gif) center center no-repeat;
+    background-size: 100%;
+}
+.Card3 video{
+    position: relative;
+    width: 65%;
+    height: 48%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    translate: 25% -30%;
+    z-index: -1;
+}
+.Card3 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.Card5 h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.Card5 li{
+    display: list-item;
+    list-style: none;
+    width: 100%;
+    margin: 10px;
+}
+.collapsible{
+    background-color: rgba(128, 128, 128, 0.405);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.collapsible:after {
+    content: '+';
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: 'x';
+}
+.collapsible:hover{
+    background-color: rgba(128, 128, 128, 0.791);
+}
+
+.content{
+    background-color: rgba(128, 128, 128, 0.405);
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+}
+.active + .content{
+    overflow: visible;
+    max-height: 400px;
+    margin-top: 2px;
+    padding: 10px 10px 20px;
+}
+.FAQ_text{
+    text-align: center;
+    line-height: 3rem;
+    translate: 0% 25%;
+}
+
+.footer{
+    border-top: 8px solid rgb(52, 51, 51);
+    padding: 50px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+.footer p{
+    margin-top: 1.5rem;
+}
+.footer_cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+.footer_cols ul{
+    list-style: none;
+}
+.dropdown2{
+    margin-top: 1.5rem;
+    background-color: rgba(110, 155, 233, 0.084);
+    border: 0.5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 0.25rem;
+    width: 6rem;
+    font-weight: 400;
+}

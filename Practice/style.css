@@ -1,0 +1,13 @@
+h1{
+    color: rgb(169, 1, 1);
+}
+img{
+    /* absolute measurement*/        height: 100px; 
+    /* relative measurement       height: 50%;   */
+}
+
+/* for class selector would be .name
+for id selector would be #name */
+
+/* vw: viewport width
+vh: viewport height */
